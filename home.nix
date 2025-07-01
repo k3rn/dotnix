@@ -39,7 +39,27 @@
     wl-clipboard
     git
     hyprlock
- ];
+  ];
+  home.file = {
+    ".gitconfig" = {
+      source = config.lib.file.mkOutOfStoreSymlink "/home/kern/Code/dotFiles/gitconfig";
+    };
+    ".config/rofi/config.rasi" = {
+      source = config.lib.file.mkOutOfStoreSymlink "/home/kern/Code/dotFiles/rofi";
+    };
+    ".config/sway" = {
+      source = config.lib.file.mkOutOfStoreSymlink "/home/kern/Code/dotFiles/sway";
+      recursive = true;
+    };
+    ".config/foot/foot.ini" = {
+      source = config.lib.file.mkOutOfStoreSymlink "/home/kern/Code/dotFiles/foot";
+      recursive = true;
+    };
+    ".config/hypr" = {
+      source = config.lib.file.mkOutOfStoreSymlink "/home/kern/Code/dotFiles/hypr";
+      recursive = true;
+    };
+  };
   programs.home-manager.enable = true;
   programs.bash = {
     enable = true;
