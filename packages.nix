@@ -2,15 +2,10 @@
 
 {
 environment.systemPackages = with pkgs; [
-    grim
-    slurp
-    wl-clipboard
     mako
     tmux
     gvfs
     soteria
-    git
-    fzf
     pamixer
     networkmanagerapplet
     minikube

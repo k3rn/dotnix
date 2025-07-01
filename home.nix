@@ -27,6 +27,18 @@
     neofetch
     gh
     hypridle
+    vagrant
+    _1password-gui
+    _1password-cli
+    file
+    silver-searcher
+    p7zip-rar
+    fzf
+    grim
+    slurp
+    wl-clipboard
+    git
+    hyprlock
  ];
   programs.home-manager.enable = true;
   programs.bash = {
