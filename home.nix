@@ -39,6 +39,7 @@
     wl-clipboard
     git
     hyprlock
+    ghostty
   ];
   home.file = {
     ".gitconfig" = {
@@ -51,8 +52,8 @@
       source = config.lib.file.mkOutOfStoreSymlink "/home/kern/Code/dotFiles/sway";
       recursive = true;
     };
-    ".config/foot/foot.ini" = {
-      source = config.lib.file.mkOutOfStoreSymlink "/home/kern/Code/dotFiles/foot";
+    ".config/ghostty/config" = {
+      source = config.lib.file.mkOutOfStoreSymlink "/home/kern/Code/dotFiles/ghostty";
       recursive = true;
     };
     ".config/hypr" = {
