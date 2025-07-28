@@ -40,6 +40,11 @@
     git
     hyprlock
     ghostty
+    ansible
+    kubernetes
+    docker
+    hugo
+    gnumake
   ];
   home.file = {
     ".gitconfig" = {
