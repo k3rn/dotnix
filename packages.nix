@@ -9,7 +9,6 @@ environment.systemPackages = with pkgs; [
     pamixer
     networkmanagerapplet
     minikube
-    docker
     apple-cursor
     gnome-tweaks
     htop
@@ -19,6 +18,8 @@ environment.systemPackages = with pkgs; [
     powertop
     vim
     hunspellDicts.pt_BR
+    xdg-desktop-portal-hyprland
+    docker
 ];
   programs.sway = {
     enable = true;

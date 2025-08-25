@@ -71,7 +71,14 @@
 	     user = "greeter";
 	  };
 	 };
-};
+   };
+   xdg.portal = {
+    enable = true;
+    extraPortals = [
+      pkgs.xdg-desktop-portal-wlr
+    ];
+    config.common.default = "wlr";
+   };
   # Open ports in the firewall.
   # networking.firewall.allowedTCPPorts = [ ... ];
   # networking.firewall.allowedUDPPorts = [ ... ];
