@@ -45,6 +45,7 @@
     docker
     hugo
     gnumake
+    calibre
   ];
   home.file = {
     ".gitconfig" = {
