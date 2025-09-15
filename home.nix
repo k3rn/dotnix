@@ -46,6 +46,9 @@
     hugo
     gnumake
     calibre
+    freecad-wayland
+    hub
+    gns3-gui
   ];
   home.file = {
     ".gitconfig" = {
