@@ -20,6 +20,9 @@ environment.systemPackages = with pkgs; [
     hunspellDicts.pt_BR
     xdg-desktop-portal-hyprland
     docker
+    unzip
+    nmap
+    inetutils
 ];
   programs.sway = {
     enable = true;
