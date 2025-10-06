@@ -23,6 +23,7 @@ environment.systemPackages = with pkgs; [
     unzip
     nmap
     inetutils
+    jellyfin-media-player
 ];
   programs.sway = {
     enable = true;
