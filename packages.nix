@@ -24,6 +24,7 @@ environment.systemPackages = with pkgs; [
     nmap
     inetutils
     jellyfin-media-player
+    intel-gpu-tools
 ];
   programs.sway = {
     enable = true;
