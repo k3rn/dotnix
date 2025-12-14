@@ -23,7 +23,6 @@ environment.systemPackages = with pkgs; [
     unzip
     nmap
     inetutils
-    jellyfin-media-player
     intel-gpu-tools
 ];
   programs.sway = {
@@ -40,7 +39,6 @@ environment.systemPackages = with pkgs; [
   fonts.packages = with pkgs; [
 	nerd-fonts.blex-mono
   ];
-
 
 }
 

@@ -8,11 +8,10 @@
     silver-searcher
     uv
 	nix-search
-	python3Full
+	python315
 	wget
 	neofetch
 	spotify
-	coolreader
     rofi-power-menu
     discord
     mpv
@@ -20,7 +19,7 @@
     brave
     firefox
     libreoffice
-    rofi-wayland
+    rofi
     chromium
     thunderbird
     feh
@@ -45,8 +44,6 @@
     docker
     hugo
     gnumake
-    calibre
-    freecad-wayland
     hub
     gns3-gui
   ];
