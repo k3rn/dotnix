@@ -13,10 +13,8 @@
 	neofetch
 	spotify
     rofi-power-menu
-    discord
     mpv
     aria2
-    brave
     firefox
     libreoffice
     rofi
