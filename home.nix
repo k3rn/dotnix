@@ -44,6 +44,7 @@
     gnumake
     hub
     gns3-gui
+    delfin
   ];
   home.file = {
     ".gitconfig" = {
