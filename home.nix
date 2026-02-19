@@ -45,6 +45,7 @@
     hub
     gns3-gui
     delfin
+    terraform
   ];
   home.file = {
     ".gitconfig" = {
