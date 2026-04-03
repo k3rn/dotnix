@@ -46,6 +46,7 @@
     gns3-gui
     delfin
     terraform
+    pavucontrol
   ];
   home.file = {
     ".gitconfig" = {
