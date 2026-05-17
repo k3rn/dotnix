@@ -8,7 +8,6 @@ environment.systemPackages = with pkgs; [
     soteria
     pamixer
     networkmanagerapplet
-    minikube
     apple-cursor
     gnome-tweaks
     htop
@@ -24,6 +23,7 @@ environment.systemPackages = with pkgs; [
     nmap
     inetutils
     intel-gpu-tools
+    passt
 ];
   programs.sway = {
     enable = true;
