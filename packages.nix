@@ -24,6 +24,7 @@ environment.systemPackages = with pkgs; [
     inetutils
     intel-gpu-tools
     passt
+    usbutils
 ];
   programs.sway = {
     enable = true;
