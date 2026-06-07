@@ -25,17 +25,13 @@ environment.systemPackages = with pkgs; [
     intel-gpu-tools
     passt
     usbutils
+    thunar
+    thunar-archive-plugin
+    thunar-volman
 ];
   programs.sway = {
     enable = true;
     wrapperFeatures.gtk = true;
-  };
-  programs.thunar = {
-    enable = true;
-    plugins = with pkgs.xfce; [
-      thunar-archive-plugin
-      thunar-volman
-    ];
   };
   fonts.packages = with pkgs; [
 	nerd-fonts.blex-mono

@@ -10,7 +10,6 @@
 	nix-search
 	python315
 	wget
-	neofetch
 	spotify
     rofi-power-menu
     mpv
@@ -21,7 +20,6 @@
     chromium
     thunderbird
     feh
-    neofetch
     gh
     hypridle
     vagrant
