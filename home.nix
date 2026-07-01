@@ -45,7 +45,7 @@
     delfin
     terraform
     pavucontrol
-    k3d
+    kind
   ];
   home.file = {
     ".gitconfig" = {
