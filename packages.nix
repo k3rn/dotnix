@@ -28,6 +28,7 @@ environment.systemPackages = with pkgs; [
     thunar
     thunar-archive-plugin
     thunar-volman
+    clinfo
 ];
   programs.sway = {
     enable = true;
