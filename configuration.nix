@@ -102,6 +102,9 @@
       intel-compute-runtime
     ];
   };
+  hardware.block = {
+    defaultScheduler = "kyber";
+  };
   environment.sessionVariables = { LIBVA_DRIVER_NAME = "iHD"; };
   # Open ports in the firewall.
   # networking.firewall.allowedTCPPorts = [ ... ];
