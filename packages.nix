@@ -15,7 +15,7 @@ environment.systemPackages = with pkgs; [
     hyprlock
     tail-tray
     powertop
-    vim
+    vim-full
     hunspellDicts.pt_BR
     xdg-desktop-portal-hyprland
     docker
